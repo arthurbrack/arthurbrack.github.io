@@ -1,0 +1,22 @@
+title: Arthur Brack
+email: dein@email.de
+description: >-
+  Persönliche Webseite von Arthur Brack.
+baseurl: "" 
+url: "https://arthurbrack.github.io"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
+minimal_mistakes_skin: "default"
+author:
+  name   : "Arthur Brack"
+  avatar : "/assets/images/avatar.jpg"
+  bio    : "KI-Experte | Data Scientist | Dozent"
+include: ["_pages"]
+collections:
+  pages:
+    output: true
+    permalink: /:name/
